@@ -1,0 +1,26 @@
+
+
+
+@import 'components/header.css';
+@import 'components/main.css';
+@import 'components/footer.css';
+@import 'resources.css';
+@import 'main.css';
+
+
+body {
+  font-family: 'SF-Pro-Display', sans-serif;
+  scroll-behavior: auto;
+  overflow-x: hidden;
+  background: #f0f0f0;
+}
+
+p {
+  font-size: 20px;
+  line-height: 160%;
+  color: #1e1e1e;
+}
+
+img {
+  width: 100%;
+}

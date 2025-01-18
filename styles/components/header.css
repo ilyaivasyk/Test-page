@@ -1,0 +1,48 @@
+.header {
+  background-image: url('../../images/background/header-bg.png');
+  background-size: cover;
+  margin-bottom: 115px;
+}
+
+.header__wrapp {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px 0;
+  backdrop-filter: blur(10px);
+  border: 1px solid #000;
+  box-sizing: border-box;
+  opacity: 1;
+}
+
+.header__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.header__section {
+  padding: 180px 0 322px;
+}
+
+.header__intro {
+  max-width: 690px;
+}
+
+.header__title {
+  font-family: 'PPTelegraf', sans-serif;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.header__subtitle {
+  max-width: 615px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+@media (max-width:992px) {
+  .header__navigation {
+    display: none;
+  }
+}

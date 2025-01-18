@@ -1,0 +1,23 @@
+.btn {
+  display: block;
+  max-width: 288px;
+  padding: 26px 30px;
+  font-weight: 600;
+  font-size: 20px;
+  border-radius: 0 20px 20px 20px;
+  cursor: pointer;
+}
+
+.btn--yellow {
+  color: #1e1e1e;
+  background: #ffea2e;
+}
+
+.about__button {
+  margin-top: 70px;
+}
+
+.btn--purple {
+  color: #fff;
+  background: #962eff;
+}

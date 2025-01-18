@@ -1,0 +1,56 @@
+.games {
+  margin-bottom: 140px;
+}
+
+.games__title {
+  margin-bottom: 48px;
+}
+
+.games__blocks {
+  display: flex;
+  gap: 60px;
+  margin-bottom: 60px;
+}
+
+.games__block {
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  background: #fff;
+  border-radius: 0 20px 20px 20px;
+}
+
+.games__block-image {
+  margin-bottom: 32px;
+}
+
+.games__block-title {
+  margin-bottom: 20px;
+}
+
+.games__button {
+  margin: 0 auto;
+}
+
+@media (max-width:1600px) {
+  .games__blocks {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+
+  .games__block {
+    align-items: center;
+  }
+}
+
+@media (max-width:768px) {
+  .games__blocks {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .advantages__background {
+    padding: 24px;
+  }
+}

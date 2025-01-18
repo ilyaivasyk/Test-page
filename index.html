@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="styles/reset.css"
+    />
+    <link
+      rel="stylesheet"
+      href="styles/style.css"
+    />
+
+    <title>Test</title>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="header__wrapp">
+          <div class="container">
+            <div class="header__content">
+              <div class="header__logo">
+                <a href="#">
+                  <img
+                    src="images/icons/logo.svg"
+                    alt="logo"
+                  />
+                </a>
+              </div>
+              <div class="header__navigation navigation">
+                <nav class="navigation__wrapp">
+                  <ul class="navigation__list">
+                    <li class="navigation__item">
+                      <a
+                        class="navigation__link"
+                        href="#about"
+                        >O nas</a
+                      >
+                    </li>
+                    <li class="navigation__item">
+                      <a
+                        class="navigation__link"
+                        href="#pokoje"
+                        >Pokoje</a
+                      >
+                    </li>
+                    <li class="navigation__item">
+                      <a
+                        class="navigation__link"
+                        href="#gry-kasynowe"
+                        >Zawody sportowe</a
+                      >
+                    </li>
+                    <li class="navigation__item">
+                      <a
+                        class="navigation__link"
+                        href="#contact-form"
+                        >Hotele kasyno</a
+                      >
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="menu__icon">
+                <img
+                  src="images/icons/menu.svg"
+                  alt="menu"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="header__section">
+          <div class="container">
+            <div class="header__intro">
+              <h1 class="header__title h1">Hotele z kasynem w Polsce</h1>
+              <p class="header__subtitle">
+                Odkryj idealne połączenie luksusowych wakacji i ekscytującego
+                hazardu w naszych ekskluzywnych hotelach kasynowych w całym
+                kraju.
+              </p>
+              <a
+                class="header__btn btn btn--yellow"
+                href="#contact-form"
+                >Zobacz hotele z kasynami</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <aside class="menu" id="burger-menu">
+      <div class="menu__wrapp">
+        <div class="container">
+          <div class="menu__content">
+            <div class="menu__navigation navigation">
+              <nav class="navigation__wrapp">
+                <ul class="navigation__list menu--list">
+                  <li class="navigation__item menu--item">
+                    <a class="navigation__link" href="#about">O nas</a>
+                  </li>
+                  <li class="navigation__item menu--item">
+                    <a class="navigation__link" href="#pokoje">Pokoje</a>
+                  </li>
+                  <li class="navigation__item menu--item">
+                    <a class="navigation__link" href="#gry-kasynowe">Zawody sportowe</a>
+                  </li>
+                  <li class="navigation__item menu--item">
+                    <a class="navigation__link" href="#contact-form">Hotele kasyno</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="menu__close">
+        <img src="images/icons/close.svg" alt="close" />
+      </div>
+    </aside>
+
+    <main>
+      <section
+        class="about"
+        id="about"
+      >
+        <div class="container">
+          <h2 class="about__title h2">O NAS</h2>
+          <div class="about__content-top">
+            <div class="about__description">
+              <p>
+                Witamy na naszej stronie! Oferujemy najbardziej aktualne i
+                wysokiej jakości informacje o hotelach z kasynami na całym
+                świecie. Naszą misją jest zapewnienie niedrogiego i
+                ekscytującego doświadczenia, łącząc komfortowe zakwaterowanie z
+                żywymi emocjami związanymi z hazardem. Niezależnie od tego, czy
+                jesteś początkującym, czy doświadczonym graczem, każdy znajdzie
+                tu coś dla siebie.
+              </p>
+
+              <p>
+                Nasza strona poświęcona jest prezentowaniu najlepszych
+                hoteli-kasyn, w których czekają na Ciebie różnorodne opcje gier,
+                pierwszorzędne udogodnienia i wyjątkowa rozrywka. Niezależnie od
+                tego, czy wolisz klasyczne gry stołowe, ekscytujące automaty do
+                gier, czy emocje związane z turniejami pokera na żywo, nasze
+                hotele-kasyna mają wszystko, czego potrzebujesz, aby zapewnić
+                niezapomniane wrażenia z gry. Zanurz się w świecie luksusu i
+                przyjemności, ciesząc się pierwszorzędnym zakwaterowaniem i
+                światowej klasy programami rozrywkowymi.
+              </p>
+            </div>
+            <div class="about__images">
+              <img
+                class="about__image about__image--large"
+                src="/images/image1.png"
+                alt="image1"
+              />
+              <img
+                class="about__image about__image--small"
+                src="/images/image1-sm.png"
+                alt="image1-sm"
+              />
+            </div>
+          </div>
+          <div class="about__content-bottom">
+            <img
+              class="about__image"
+              src="/images/image3.png"
+              alt="image3"
+            />
+            <div class="about__description about__description--bottom">
+              <p>
+                Wybór idealnego hotelu kasynowego może być trudnym zadaniem,
+                zwłaszcza przy tak ogromnym wyborze. Aby ułatwić ci ten proces,
+                oferujemy praktyczne porady, które pomogą ci dokonać świadomego
+                wyboru zgodnie z twoimi preferencjami i potrzebami. Niezależnie
+                od tego, czy podróżujesz z rodziną, partnerem czy samotnie, mamy
+                odpowiednie opcje dla każdego typu podróżnika. Od przyjaznych
+                rodzinom kurortów z mnóstwem udogodnień po romantyczne miejsca
+                dla par, nasza strona internetowa oferuje kompletny przewodnik
+                po wyborze najlepszego hotelu kasynowego na następne wakacje.
+              </p>
+              <a
+                href="#"
+                class="about__button btn btn--purple"
+                >Zobacz hotele z kasynami</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="our-room"
+        id="pokoje"
+      >
+        <div class="container">
+          <h2 class="our-room__title h2">NASZ POKÓJ</h2>
+
+          <p class="our-room__subtitle">
+            Pokoje i apartamenty dostosowane do każdych preferencji
+          </p>
+
+          <div class="our-room__blocks">
+            <div class="our-room__content">
+              <div class="our-room__block">
+                <div class="our-room__block__text-group">
+                  <h3
+                    class="our-room__block-title h3 our-room__block-title--purple"
+                  >
+                    Apartament prezydencki:
+                  </h3>
+                  <p class="our-room__block-description">
+                    Stanowią uosobienie luksusu, oferując eleganckie meble,
+                    przestronne sypialnie i przytulne salony z jadalniami.
+                    Często oferują wspaniałe widoki. Niektóre posiadają jacuzzi
+                    lub prywatne balkony. Ceny zaczynają się od 2000 PLN za noc.
+                  </p>
+                </div>
+                <div class="our-room__images">
+                  <img
+                    src="images/block-image-1.png"
+                    alt="block-image1"
+                  />
+                  <img
+                    src="images/block-image-2.png"
+                    alt="block-image2"
+                  />
+                </div>
+                <img
+                  src="images/block-image-3.png"
+                  alt="block-image3"
+                />
+              </div>
+            </div>
+
+            <div class="our-room__content">
+              <div class="our-room__block">
+                <div class="our-room__block__text-group">
+                  <h3 class="our-room__block-title h3">Pokój typu standard:</h3>
+                  <p class="our-room__block-description">
+                    Przytulny i niedrogi pokój z łóżkiem typu queen-size i
+                    nowoczesną łazienką, wyposażony we wszystkie niezbędne
+                    udogodnienia, w tym telewizor i bezprzewodowy dostęp do
+                    Internetu. Doskonały wybór dla osób podróżujących samotnie
+                    lub par. Ceny zaczynają się od 400 PLN za noc.
+                  </p>
+                </div>
+                <div class="our-room__images">
+                  <img
+                    src="images/block-image-4.png"
+                    alt="block-image4"
+                  />
+                  <img
+                    src="images/block-image-5.png"
+                    alt="block-image5"
+                  />
+                </div>
+                <img
+                  src="images/block-image-6.png"
+                  alt="block-image6"
+                />
+              </div>
+            </div>
+
+            <div class="our-room__content">
+              <div class="our-room__block">
+                <div class="our-room__block__text-group">
+                  <h3 class="our-room__block-title h3">Pokój typu Deluxe:</h3>
+                  <p class="our-room__block-description">
+                    Bardziej luksusowe niż standardowe, z dodatkową
+                    przestrzenią, łóżkiem typu king-size, częścią wypoczynkową i
+                    dodatkowymi udogodnieniami, takimi jak minilodówka i ekspres
+                    do kawy. Ceny zaczynają się od 650 PLN za noc.
+                  </p>
+                </div>
+                <div class="our-room__images">
+                  <img
+                    src="images/block-image-7.png"
+                    alt="block-image7"
+                  />
+                  <img
+                    src="images/block-image-8.png"
+                    alt="block-image8"
+                  />
+                </div>
+                <img
+                  src="images/block-image-9.png"
+                  alt="block-image9"
+                />
+              </div>
+            </div>
+
+            <div class="our-room__content">
+              <div class="our-room__block">
+                <div class="our-room__block__text-group">
+                  <h3 class="our-room__block-title h3">
+                    Apartament typu executive:
+                  </h3>
+                  <p class="our-room__block-description">
+                    Doskonały wybór dla zapracowanych profesjonalistów z
+                    wygodnym salonem, poręcznym biurkiem do pracy i
+                    ekskluzywnymi usługami, w tym wczesnym zameldowaniem i
+                    późnym wymeldowaniem. W cenę wliczony jest dostęp do
+                    ekskluzywnego salonu. Ceny noclegów zaczynają się od 800
+                    PLN.
+                  </p>
+                </div>
+                <div class="our-room__images">
+                  <img
+                    src="images/block-image-10.png"
+                    alt="block-image10"
+                  />
+                  <img
+                    src="images/block-image-11.png"
+                    alt="block-image11"
+                  />
+                </div>
+                <img
+                  src="images/block-image-12.png"
+                  alt="block-image12"
+                />
+              </div>
+            </div>
+          </div>
+
+          <a
+            href="#"
+            class="our-room__button btn btn--purple"
+            >Zobacz hotele z kasynami</a
+          >
+        </div>
+      </section>
+
+      <section class="advantages container">
+        <div class="advantages__background">
+          <div class="advantages__content">
+            <h2 class="advantages__title h2">NASZE ZALETY</h2>
+            <p class="advantages__description">
+              Naszą główną zaletą w [nazwa marki] jest zintegrowane podejście do
+              gier i usług hotelowych. U nas znajdziesz doskonałe kasyno,
+              luksusowe zakwaterowanie i najwyższej jakości usługi, a wszystko
+              to w jednej dogodnej lokalizacji. Niezależnie od tego, czy chcesz
+              grać, przenocować, czy zjeść pyszny posiłek, gwarantujemy, że
+              każda wizyta będzie niezapomnianym i przyjemnym doświadczeniem.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="games"
+        id="games"
+      >
+        <div class="container">
+          <h2 class="games__title h2">GRY KASYNOWE</h2>
+          <div class="games__blocks">
+            <div class="games__block">
+              <img
+                class="games__block-image"
+                src="images/game-image1.png"
+                alt="game-image1"
+              />
+              <h4 class="games__block-title h4">Blackjack</h4>
+              <p class="games__block-description">
+                Gra karciana, w której celem uczestników jest zdobycie jak
+                najbliżej 21 punktów bez przekraczania tej wartości. Gracze
+                rywalizują z krupierem, starając się uzyskać wyższą kwotę,
+                jednocześnie nie przekraczając limitu.
+              </p>
+            </div>
+
+            <div class="games__block">
+              <img
+                class="games__block-image"
+                src="images/game-image2.png"
+                alt="game-image2"
+              />
+              <h4 class="games__block-title h4">Roulette</h4>
+              <p class="games__block-description">
+                Gracze umieszczają kulkę w miejscu, w którym zatrzyma się ona na
+                obracającym się kole. Koło jest podzielone na ponumerowane
+                sektory, które są koloru czerwonego lub czarnego. Uczestnicy
+                mogą obstawiać konkretne liczby, kolory lub kombinacje kolorów.
+              </p>
+            </div>
+
+            <div class="games__block">
+              <img
+                class="games__block-image"
+                src="images/game-image3.png"
+                alt="game-image3"
+              />
+              <h4 class="games__block-title h4">Slots</h4>
+              <p class="games__block-description">
+                Automaty do gier to gry losowe, w których uczestnicy kręcą
+                bębnami, aby dopasować symbole na liniach wygrywających. Maszyny
+                te przyciągają swoją prostotą i szansą na wygranie dużych
+                jackpotów. wyższą kwotę, jednocześnie nie przekraczając limitu.
+              </p>
+            </div>
+
+            <div class="games__block">
+              <img
+                class="games__block-image"
+                src="images/game-image4.png"
+                alt="game-image4"
+              />
+              <h4 class="games__block-title h4">Poker</h4>
+              <p class="games__block-description">
+                Rodzina gier karcianych, które łączą emocje, strategię i
+                umiejętności. Do najpopularniejszych odmian zalicza się
+                obstawianie jako ważny element gry, ustalający zwycięzcę każdego
+                rozdania na podstawie kombinacji kart, z których część pozostaje
+                ukryta do końca rundy.
+              </p>
+            </div>
+          </div>
+          <a
+            href="#"
+            class="games__button btn btn--purple"
+            >Zobacz hotele z kasynami</a
+          >
+        </div>
+      </section>
+
+      <section
+        class="form"
+        id="contact-form"
+      >
+        <div class="container">
+          <div class="form__content">
+            <div class="form__contact">
+              <h2 class="form__title form__title--white h2">
+                Skontaktuj się z nami
+              </h2>
+              <form
+                class="form__wrapp"
+                action=""
+                method="get"
+              >
+                <input
+                  class="form__input"
+                  type="text"
+                  name="name"
+                  placeholder="Name"
+                  required
+                />
+                <input
+                  class="form__input"
+                  type="email"
+                  name="email"
+                  placeholder="E-mail"
+                  required
+                />
+                <textarea
+                  class="form__textarea"
+                  name="message"
+                  placeholder="Your question"
+                  rows="4"
+                ></textarea>
+                <button
+                  class="form__btn btn btn--yellow"
+                  type="submit"
+                >
+                  Przekaż do rozpatrzenia
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div class="container">
+          <div class="footer__top">
+            <div class="footer__content">
+              <div class="footer__logo">
+                <a href="#">
+                  <img
+                    src="images/icons/footer-logo.svg"
+                    alt="logo"
+                  />
+                </a>
+              </div>
+              <div class="footer__navigation navigation">
+                <nav class="navigation__wrapp">
+                  <ul class="navigation__list navigation__list--footer">
+                    <li class="navigation__item navigation__item--footer">
+                      <a
+                        class="navigation__link"
+                        href="#about"
+                        >O nas</a
+                      >
+                    </li>
+                    <li class="navigation__item navigation__item--footer">
+                      <a
+                        class="navigation__link"
+                        href="#pokoje"
+                        >Pokoje</a
+                      >
+                    </li>
+                    <li class="navigation__item navigation__item--footer">
+                      <a
+                        class="navigation__link"
+                        href="#gry-kasynowe"
+                        >Zawody sportowe</a
+                      >
+                    </li>
+                    <li class="navigation__item navigation__item--footer">
+                      <a
+                        class="navigation__link"
+                        href="#contact-form"
+                        >Hotele kasyno</a
+                      >
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+          <div class="footer__bottom">
+            <p class="footer__text-group">
+              Immerse yourself in a completely free gaming adventure with
+              [Brandname], featuring only free-to-play casino-style games and
+              slots. Our platform is designed for individuals 18 and older and
+              places a strong emphasis on responsible gaming. Please be aware
+              that these games can be addictive. If your gaming habits become
+              difficult to manage, we strongly recommend seeking professional
+              assistance.
+            </p>
+            <img
+              class="footer__bottom-icon"
+              src="images/icons/reservation.svg"
+              alt="footer bottom icon"
+            />
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

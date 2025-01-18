@@ -1,0 +1,93 @@
+.our-room {
+  margin-bottom: 180px;
+}
+
+.our-room__title {
+  margin-bottom: 40px;
+}
+
+.our-room__subtitle {
+  margin-bottom: 48px;
+}
+
+.our-room__blocks {
+  display: flex;
+  gap: 60px;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+}
+
+.our-room__content {
+  padding: 50px;
+  max-width: 750px;
+  background: #fff;
+  border-radius: 0 20px 20px 20px;
+}
+
+@media (max-width:992px) {
+  .our-room__content {
+    max-width: 100%;
+    padding: 20px;
+  }
+}
+
+.our-room__block {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+
+
+.our-room__block-title {
+  margin-bottom: 32px;
+  font-weight: 900;
+}
+
+.our-room__block-title--purple {
+  color: #962eff;
+}
+
+.our-room__block-description {
+  margin-bottom: 32px;
+}
+
+.our-room__images {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 32px;
+}
+
+.our-room__button {
+  margin: 0 auto;
+}
+
+@media (max-width:1600px) {
+  .games__blocks {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+
+  .games__block {
+    align-items: center;
+  }
+
+  .our-room__blocks {
+    justify-content: center;
+    gap: 40px;
+  }
+}
+
+@media (max-width:992px) {
+  .our-room__content {
+    max-width: 100%;
+    padding: 20px;
+  }
+}
+
+@media (max-width:768px) {
+  .our-room__images {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

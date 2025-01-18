@@ -1,0 +1,74 @@
+/* Стилі для фіксованого меню */
+.menu {
+  display: none; /* Початково меню приховане */
+  position: fixed; /* Фіксоване меню на екрані */
+  top: 0;
+  right: -100%; /* Початкове розташування меню поза екраном (праворуч) */
+  width: 100%; /* Ширина меню (можна змінити за бажанням) */
+  height: 100%; /* Висота 100%, меню займає весь екран */
+  background-color: rgba(0, 0, 0, 0.8); /* Фон з затемненням */
+  z-index: 9999;
+  display: flex;
+  justify-content: center; /* Центруємо елементи по вертикалі та горизонталі */
+  align-items: center;
+  opacity: 0; /* Початковий стан: невидиме */
+  transition: right 0.3s ease, opacity 0.3s ease; /* Плавна анімація зміщення з правого боку */
+}
+
+/* Стилі для іконки бургер-меню */
+.menu__icon {
+  display: block;
+  cursor: pointer;
+}
+
+/* Стилі для закриття меню */
+.menu__close {
+  position: absolute;
+  top: 40px;
+  right: 25px;
+  cursor: pointer;
+}
+
+/* Стилі для навігаційного списку */
+.menu--list {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Список відображається по вертикалі */
+}
+
+.menu--item {
+  margin-bottom: 20px;
+  margin-right: 0;
+}
+
+.menu--item:last-child {
+  margin-bottom: 0;
+}
+
+.menu__link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+/* Стилі для активації меню */
+.menu.open {
+  display: flex; /* Відображаємо меню */
+  right: 0; /* Переміщаємо меню на екран */
+  opacity: 1; /* Меню стає видимим */
+}
+
+/* Медіа-запит для приховування основної навігації на мобільних */
+@media (max-width: 992px) {
+  .header__navigation {
+    display: none;
+  }
+}
+
+@media (min-width:991px) {
+  .menu__icon {
+    display: none;
+  }
+}

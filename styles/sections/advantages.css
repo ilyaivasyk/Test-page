@@ -1,0 +1,34 @@
+.advantages {
+  margin-bottom: 180px;
+}
+
+.advantages__background {
+  padding: 80px;
+  height: 100%;
+  max-width: 100%;
+  border-radius: 0 20px 20px 20px;
+  background: url("../../images/background/advantages-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.advantages__content {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 750px;
+}
+
+.advantages__title {
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.advantages__description {
+  color: #fff;
+}
+
+@media (max-width:768px) {
+  .advantages__background {
+    padding: 30px;
+  }
+}

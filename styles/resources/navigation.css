@@ -1,0 +1,35 @@
+.navigation__list {
+  display: flex;
+}
+
+.navigation__link {
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.navigation__item {
+  margin-right: 40px;
+}
+
+.navigation__item:last-child {
+  margin-right: 0;
+}
+
+@media (max-width:992px) {
+  /* .navigation__list--footer {
+    flex-direction: column;
+  }
+  
+  .navigation__item--footer {
+    margin-bottom: 20px;
+  }
+  
+  .navigation__item--footer:last-child {
+    margin-bottom: 0;
+  } */
+   
+  .navigation__item--footer {
+    margin-right: 20px;
+  }
+}
